@@ -1,0 +1,38 @@
+{
+  "pedido": {
+    "id": 1,
+    "cliente_id": 1,
+    "data_pedido": "14-03-2026",
+    "status": "em_transporte",
+    "valor_total": 330.00,
+    "frete": 30.00,
+    "peso_kg": 2.3,
+    "status_fragil": true,
+    "endereco_entrega": {
+      "rua": "Rua das Flores",
+      "numero": 123,
+      "bairro": "Centro",
+      "cidade": "São Paulo",
+      "estado": "SP",
+      "cep": "01000000"
+    },
+    "produtos": [
+      {
+        "id": 1,
+        "nome": "Teclado",
+        "quantidade": 1,
+        "preco_unitario": 250.00
+      },
+      {
+        "id": 2,
+        "nome": "Mouse Gamer",
+        "quantidade": 2,
+        "preco_unitario": 80.00
+      }
+    ],
+    "pagamento": {
+      "metodo": "pix",
+      "confirmado": true
+    }
+  }
+}

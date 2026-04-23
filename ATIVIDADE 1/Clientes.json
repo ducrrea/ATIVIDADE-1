@@ -1,0 +1,27 @@
+{
+  "cliente": {
+    "id": 1,
+    "nome": "João Silva",
+    "cpf": "12345678900",
+    "data_nascimento": "18-10-1999",
+    "ativo": true,
+    "pontos_fidelidade": 250,
+    "contato": {
+      "email": "joao@email.com",
+      "telefone": "11999999999"
+    },
+    "endereco": {
+      "rua": "Rua das Flores",
+      "numero": 123,
+      "bairro": "Centro",
+      "cidade": "São Paulo",
+      "estado": "SP",
+      "cep": "01000000",
+      "pais": "Brasil"
+    },
+    "preferencias": {
+      "receber_promocoes": true,
+      "formas_pagamento": ["cartao", "pix", "boleto"]
+    }
+  }
+}
